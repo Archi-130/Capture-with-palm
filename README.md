@@ -1,10 +1,9 @@
 # Palm Gesture Photo Capture App
 
-A Python application that uses hand gesture recognition to capture photos with a webcam. The app detects an open palm (five fingers) using Mediapipe and OpenCV, then starts a visible 3-second countdown timer before automatically clicking and saving a photo. The countdown continues even if the hand is removed from the frame.
+A Python application that uses hand gesture recognition to capture photos with a webcam. The app detects an open palm using Mediapipe and OpenCV, then starts a visible 3-second countdown timer before automatically clicking and saving a photo. The countdown continues even if the hand is removed from the frame.
 
 ## Features
 
-- Detects both left and right hands accurately.
 - Real-time video feed with hand landmark visualization.
 - 3-second countdown timer displayed on the video feed when a palm is detected.
 - Automatic photo capture after countdown.
